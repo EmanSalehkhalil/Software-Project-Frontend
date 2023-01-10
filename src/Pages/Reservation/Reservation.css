@@ -1,0 +1,40 @@
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 1px;
+    padding: 0 2px;
+    padding-bottom: 3px;
+    color: black;
+    font:bolder;
+    font-size: x-large;
+    font-weight: 700;
+}
+.create{
+    max-width:  400px;
+    margin: 30px;
+    text-align: block;
+}
+.create label{
+    text-align: left;
+    display: block;
+}
+.create h2{
+    font-size: 20px;
+    color : #f1356d;
+}
+
+.create input , .create select {
+    width: 100%;
+    padding: 6px 10 px;
+    margin: 10 px solid #ddd;
+    box-sizing: border-box;
+    display:block;
+}
+
+.create button{
+    background: #f1356d;
+    color: #fff;
+    border:0;
+    padding: 8px;
+    cursor:pointer;
+}
